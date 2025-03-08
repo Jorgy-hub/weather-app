@@ -9,9 +9,10 @@ body {
 }
 
 h1 {
-    text-transform: uppercase;
+    text-transform: none;
     color: white;
     font-weight: 600;
+    font-size: 5vw;
 }
 
 .box {
@@ -21,4 +22,5 @@ h1 {
     margin: 2rem;
     padding: 1rem;
     border-radius: 25px;
+    overflow: hidden;
 }
