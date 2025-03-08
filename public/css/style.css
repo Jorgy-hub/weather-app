@@ -15,6 +15,10 @@ h1 {
     font-size: 5vh;
 }
 
+#presion {
+    font-size: 3vh !important;
+}
+
 .box {
     background-color: rgba(0,0,0,0.5);
     width: 75%;
