@@ -22,7 +22,7 @@ $(document).ready(function () {
     let pressRef = dbRef.ref("ESP32Weather/Presion/");
     pressRef.on('value', function (snapshot) {
         let pres = snapshot.val();
-        $("#presion").text(pres + "");
+        $("#presion").text(pres.toFixed(2) + "mmHg");
     });
 
     let humRef = dbRef.ref("ESP32Weather/Humedad/");
