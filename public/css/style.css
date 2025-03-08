@@ -1,0 +1,24 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../imgs/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    padding: 4rem;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+}
+
+.box {
+    background-color: rgba(0,0,0,0.5);
+    width: 75%;
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 25px;
+}
