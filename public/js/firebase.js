@@ -28,6 +28,6 @@ $(document).ready(function () {
     let humRef = dbRef.ref("ESP32Weather/Humedad/");
     humRef.on('value', function (snapshot) {
         let pres = snapshot.val();
-        $("#humedad").text(pres + "%");
+        $("#humedad").text(pres.toFixed(2) + "%");
     });
 });
